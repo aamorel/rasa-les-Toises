@@ -1,0 +1,241 @@
+version: '2.0'
+
+nlu:
+  - intent: bonjour
+    examples: |
+      - bonjour
+      - salut
+      - enchanté
+      - yo
+      - hey
+      - hello
+      - bjr
+      - slt
+      - salu
+      - salt
+      - bnjr
+      - salut ça va
+      - salut l'artiste
+      - bjr à toi
+
+  - intent: aurevoir
+    examples: |
+      - à +
+      - aurevoir
+      - ciao
+      - à bientôt
+      - enrevoir
+      - à plus tard
+      - à plus
+      - a +
+      - a plus
+      - a bientot
+      - tchao
+
+  - intent: possibilités
+    examples: |
+      - que peux tu faire ?
+      - quel est ton rôle ?
+      - comment peux-tu m'aider ?
+      - tu sais faire quoi ?
+      - tu peux m'aider
+      - quelles sont mes actions potentielles ?
+      - que puis-je faire ?
+      - comment peux tu m'aider ?
+      - qu'est ce que tu peux faare pour moi ?
+      - quelles sont mes possibilités ?
+
+  - intent: humain
+    examples: |
+      - est tu un humain ou un robot ?
+      - tu es un robot ?
+      - t'es un humain ?
+      - t'es une IA ?
+      - êts-vous une machine ?
+      - t'es robot
+      - t'es vivant ?
+      - je peux parler à un humain
+      - qui es tu ?
+      - quelle est ton identité ?
+      - tu es une intelligence articielle ?
+      - tu es un chatbot ?
+      - chatbot ?
+      - qui est-tu ?
+      - qui etes vous ?
+
+  - intent: acquiescer
+    examples: |
+      - oui
+      - ok
+      - yes
+      - si
+      - d'accord
+      - bien
+      - bon
+      - j'approuve
+      - clairement
+      - yeah
+      - je valide
+      - validation
+      - oue
+      - ui
+      - yep
+      - pk pas oui
+      - yep s'il te plait
+
+  - intent: nier
+    examples: |
+      - non 
+      - nein
+      - no
+      - pas du tout
+      - je refuse
+      - clairement pas
+      - nn
+      - refus
+      - ce n'est pas ça
+      - ce n'est pas une urgence
+      - non merci
+      - nn merci
+      - non ça ira
+
+  - intent: informations institut
+    examples: |
+      - les Toises ?
+      - que fait votre institut ?
+      - qu'est ce que c'est les Toises ?
+      - c quoi l'institut ?
+      - c'est un hopital psychiatrique ?
+      - infos sur l'institut
+
+  - intent: rendez-vous
+    examples: |
+      - je veux modifier mon rdv
+      - prendre rendez-vous
+      - quand est mon prochain rdv ?
+      - quelle est ma prochaine séance ?
+      - quand sont mes rdvs ?
+      - annuler un rendez-vous
+      - comment je peux annuler un rdv ?
+      - est ce que je peux reporter mon rdv de mercredi ?
+      - reporter un rdv
+      - changer mon rdv
+
+  - intent: parler thérapeute
+    examples: |
+      - je veux parler à mon psy
+      - je peux parler à mon thérapeute ?
+      - donne moi mon psychologue
+      - tu n'es pas psychologue si ?
+      - passes moi mon psy
+      - je veux voir mon psychiatre
+      - mon médecin est disponible ?
+      - parler à un professionel
+      - je veux parler à un humain
+
+  - intent: ordonnance
+    examples: |
+      - je veux voir mes ordonnances
+      - montre moi mes médocs
+      - je veux voir mes médicaments
+      - mon ordonnance
+      - puis-je avoir des infos sur mon traitement
+      - quel est mon ordonnance ?
+      - infos sur mon ordonnance
+      - quel est mon traitement ?
+      - montres ma posologie
+      - médocs ?
+      - médocs
+
+  - intent: créateur
+    examples: |
+      - qui est ton créateur ?
+      - par qui as tu été fabriqué ?
+      - qui est ton designer ?
+      - tu es fabriqué par qui ?
+      - tu es codé ?
+      - qui te codes ?
+      - c'est qui qui t'as programmé ?
+      - ton maitre ?
+      - ton créateur ?
+      - qui te controle ?
+      - qui vous a créer
+
+  - intent: fonctionnement
+    examples: |
+      - comment est-ce que tu fonctionnes ?
+      - ton code marche comment ?
+      - tu marches comment ?
+      - comment tu comprends ce que je dis ?
+      - tu utilies de l'intelligence artificielle ?
+      - comment tu fais pour me comprendre ?
+      - tu comprends ce que je dis ?
+      - tu fonctionnes comment ?
+      - tu utilises le NLP ?
+      - quelle est ta logique ?
+      - c'est quoi ton code ?
+
+  - intent: soutien psychologique
+    examples: |
+      - j'ai besoin d'un soutien psychologique !
+      - je veux un soutien
+      - j'ai besoin d'aide...
+      - je veux une aide psychologique
+      - je veux un soutien
+      - tu peux m'aider ?
+      - je me sens mal
+      - je veux de l'aiiide
+
+  - intent: inconnu
+    examples: |
+      - Quelle est la météo du jour ?
+      - 2 + 2 ?
+      - Ou est l'Afrique ?
+      - ofif fsdfafsfs
+      - rater ces ballons
+      - je veux faire un jeu
+      - allez la France
+      - sans une qualité de service
+      - photos de chat mignon
+      - chantes une chanson s'il te plait
+      - what can you say about the medical center ?
+      - que quières hacer conmigo ?
+
+  - intent: urgence
+    examples: |
+      - c'est une urgence !
+      - C'est urgent !
+      - il me faut un contact urgent
+      - urgemment
+      - sans retard
+      - très rapidemment
+
+  - intent: merci
+    examples: |
+      - merci
+      - cimer
+      - thnks
+      - je te remercie
+      - gracias
+      - mrc
+      - merci pour ton aide
+
+  - intent: taxi
+    examples: |
+      - tu peux me commander un taxi ?
+      - je peux rentrer en taxi ?
+      - commandes moi un taxi stp
+      - je veux un uber
+      - aides moi à rentrer chez moi
+      - je peux avoir un taxi ?
+      - appeles moi un taxi
+
+  - intent: infirmière
+    examples: |
+      - je veux voir une infirmière
+      - tu peux contacter une infirmière ?
+      - appelles un soignant
+      - je veux mon soignant
+      - infirmere stp !
+      - service d'infirmerie
+      - contactez le service d'infirmerie s'il vous plait

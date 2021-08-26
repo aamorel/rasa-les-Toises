@@ -1,0 +1,245 @@
+version: '2.0'
+
+nlu:
+  - intent: bonjour
+    examples: |
+      - bonjour
+      - hi there
+      - hey
+      - hello
+      - hi
+      - hell
+      - how r u
+      - how are you
+      - how you doin ?
+      - howdy
+      - welcome
+      - good day
+      - greetings
+      - hey there
+      - hello there
+
+  - intent: aurevoir
+    examples: |
+      - aurevoir
+      - ciao
+      - bye-bye
+      - goodbye
+      - adieu
+      - see u !
+      - farewell
+      - see you there
+      - bye
+
+  - intent: possibilités
+    examples: |
+      - what can you do ?
+      - what can I do ?
+      - what is your role ?
+      - what's your help ?
+      - what can u do for me
+      - what do you propose ?
+      - what are your capabilities ?
+      - can you help me ?
+      - can you do this ?
+      - my options ?
+      - what are the possibilities ?
+
+  - intent: humain
+    examples: |
+      - are you a human or a robot ?
+      - you r a bot ?
+      - you are human
+      - you are an AI
+      - you are a machine ?
+      - you are a robot
+      - are u alive ?
+      - can i speak to a human ?
+      - who are you ?
+      - what is your identity ?
+      - are you an artificial intelligence ?
+      - you are a chatbot right ?
+      - chatbot ?
+      - who are you ?
+      - what are you ?
+
+  - intent: acquiescer
+    examples: |
+      - oui
+      - ok
+      - yes
+      - si
+      - good
+      - yes sir
+      - i approve
+      - that's what i want
+      - clearly
+      - i node
+      - i valid
+      - validation
+      - yep
+      - nice
+      - agree
+      - why not
+      - i agree
+      - please yes
+      - yeessss
+      - yeeeess
+
+  - intent: nier
+    examples: |
+      - non 
+      - nein
+      - no
+      - not at all
+      - i refuse
+      - clearly not
+      - i deny
+      - noooo
+      - that's not what i want
+      - that's not an urgence
+      - i don't want this
+      - please no
+
+  - intent: informations institut
+    examples: |
+      - les Toises ?
+      - what does your institue do ?
+      - what are the Toises ?
+      - what is Toises ?
+      - is it a psychiatric hospital ?
+      - info on your company
+
+  - intent: rendez-vous
+    examples: |
+      - i want to modify my rdv
+      - take an appointment
+      - when is my next rendezvous ?
+      - what is my next appointment
+      - show me my appointments
+      - cancel a rendezvous
+      - how can i move an appointment
+      - can i move my appointment from tuesday
+      - change my rdv please
+      - when will I see my therapist
+      - can I see my rdvs ?
+
+  - intent: parler thérapeute
+    examples: |
+      - I want to speak to my psychologist
+      - can I speak to my therapist ?
+      - give me my therapist
+      - are you my psychologist ?
+      - i want to talk to my therapist
+      - can I see my psy please?
+      - my doctor is available ?
+      - talk to a professional
+      - i need to chat with my psychiatrist
+
+  - intent: ordonnance
+    examples: |
+      - I want to see my prescriptions
+      - can I print my prescriptions ?
+      - show me My treatment !
+      - my prescrption please
+      - can i have info about my treatment ?
+      - what is my prescription ?
+      - info on my treatment
+      - what is my medecine ?
+      - show me my drugs please
+      - what is the dosage for me ?
+      - list of my treatmnents ?
+
+  - intent: créateur
+    examples: |
+      - who is your creator ?
+      - who was the one building you ?
+      - who's ur designer ?
+      - who built u ?
+      - are you coded ?
+      - who is it that is coding you ?
+      - what is coding you ?
+      - your master ?
+      - who is controlling you ?
+      - who controls u ?
+      - who created you
+
+  - intent: fonctionnement
+    examples: |
+      - how are you working ?
+      - how does ur code work ?
+      - in what ways do you work ?
+      - how do you understand what i say
+      - you are using artificial intelligence ?
+      - how do you understand me 
+      - u understand what i say ?
+      - how are you functioning ?
+      - u are using NLP ?
+      - what is your logic please?
+      - what is your code ?
+      - u are made with natural language processing ?
+
+  - intent: soutien psychologique
+    examples: |
+      - I need psychological support
+      - i need a support
+      - i want to have a moral help
+      - I require help
+      - can you help me ?
+      - SOS
+      - i feeel bad
+      - i want some help please
+
+  - intent: inconnu
+    examples: |
+      - what is today's weather ?
+      - 2 + 2 ?
+      - where is africa
+      - ofif fsdfafsfs
+      - miss these balls
+      - je veux faire un jeu
+      - go France
+      - without any manner
+      - picctures of cute cat
+      - can you sing a song please ?
+      - wkdjqkjkjq
+      - hdhdhdhhdh
+      - oksoqkoqkdoq
+
+  - intent: urgence
+    examples: |
+      - it is an emmergency !!
+      - it's urgent
+      - i need it as soon as possible
+      - urgently
+      - now please it's urgent
+      - really soon
+
+  - intent: merci
+    examples: |
+      - merci
+      - thanks
+      - thnks
+      - thank you
+      - gracias
+      - i appreciate
+      - thanks to you
+      - thanks for your help
+
+  - intent: taxi
+    examples: |
+      - can you get me a cab ?
+      - can I go home with a taxi ?
+      - call me a cab please ?
+      - can i order a uber ?
+      - call me a taxi home please
+      - i want a taxi
+
+  - intent: infirmière
+    examples: |
+      - can you get me a nurse ?
+      - please a nurse
+      - call me a nurse please ?
+      - i want a nurse
+      - nursing service
+      - i want to see my nurse
